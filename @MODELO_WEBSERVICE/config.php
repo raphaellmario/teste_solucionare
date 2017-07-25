@@ -1,3 +1,3 @@
 <?php
 
-$cliente = "";
+$cliente = "CLIENTE_TESTE";
