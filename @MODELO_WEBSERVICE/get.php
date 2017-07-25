@@ -12,6 +12,6 @@ $soap = new SoapClient(null, array('location' => "http://acessows.sytes.net:9090
 
 echo '<pre>';
 print_R($soap->{$funcao}($recorte, $token, $codCliente, $jornal, $data));
-#echo ereg_replace("[^a-z]", '', base64_encode(md5($recorte . 'md5#validation#check#token'))) . '<br>';
-#echo $token;
+echo ereg_replace("[^a-z]", '', base64_encode(md5($recorte . 'md5#validation#check#token'))) . '<br>';
+echo $token;
 echo '</pre>';
